@@ -1,0 +1,85 @@
+.main_input{
+display: flex;
+margin-left: 35%;
+margin-top: 10%;
+}
+#m_input{
+    width: 40%;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid rgb(19, 19, 101);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding-left: 2%;
+}
+#add_btn{
+    margin-left: 1%;
+    width: 5%;
+    height: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid rgb(19, 19, 101);
+    font-size: 100%;
+    color: white;
+    background-color:rgb(19, 19, 101);
+}
+#add_btn:hover{
+    cursor: pointer ;
+}
+h2{
+    margin-left: 35%;
+}
+#task{
+    margin-left: 35%;
+    margin-top: 1%;
+}
+.task_input{
+    display: flex;
+    margin-top: 2%;
+    align-content: space-between;
+}
+.input_bar{
+    display: flex;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgb(19, 19, 101);
+    background-color: rgb(19, 19, 101);
+    
+    padding-left: 2%;
+}
+.t_input{
+    border: none;
+    margin: 3%;
+    width: 75%;
+    color: white;
+    background-color: rgb(19, 19, 101);
+}
+.edit_btn{
+    border: none;
+    color: white;
+    background-color: rgb(19, 19, 101);
+    margin: 2.5%;
+    margin-left: 1%;
+}
+.edit_btn:hover{
+    cursor: pointer ;
+    color:  green;
+}
+.delete_btn{
+    border: none;
+    color: white;
+    background-color: rgb(19, 19, 101);
+    margin: 2.5%;
+}
+.delete_btn:hover{
+    cursor: pointer ;
+    color: red;
+}
