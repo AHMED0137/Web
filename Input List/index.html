@@ -11,15 +11,27 @@
 </head>
 <body>
          <!-- Main Input for adding a text -->
+         <center>
+                <h1><i class="fa-solid fa-clipboard"></i></h1>
+         </center>
         <div id="main">
                 <form class="main_input" id="form">
                 <input type="text" name="main_input" id="m_input" placeholder="Type your name..">
-                <button type="submit" id="add_btn">Add</button>
+                <button type="submit" id="add_btn">+</button>
                 </form>
         </div>
         <!-- shown list -->
         <h2>Task</h2>
         <div id="task">
+                <div class="task_input">
+                        
+                        <div class="input_bar">
+                        <input type="text" name="t_input" class="t_input" value="" readonly>
+                        <button type="button" class="edit_btn"><i class="fa-solid fa-pen"></i></button>
+                        <button type="button" class="delete_btn" onclick=""><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                        
+                </div>
         </div>
 </body>
 </html>
