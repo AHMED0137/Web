@@ -16,6 +16,10 @@ margin-top: 2%;
     border-radius: 25px;
     border: 2px solid rgb(19, 19, 101);
     padding-left: 2%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 #add_btn{
     margin-left: 1%;
